@@ -14,6 +14,7 @@ library(factoextra)
 library(ggsci)
 
 # ---- Load model ----
+library(tidyr)
 model <- readRDS("kmeans_model.rds")
 km_res       <- model$km_res
 var.list     <- model$var.list
